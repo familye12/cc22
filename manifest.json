@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "YouTube Video Filter",
+  "description": "A filter for YouTube videos!",
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "version": "1.0",
+  "browser_action": {
+    "default_title": "My extension",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": ["storage"]
+}
