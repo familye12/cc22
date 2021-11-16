@@ -7,10 +7,10 @@ Chrome extension for hiding YouTube video with titles that match keywords in the
 
 ## Installation
 
-- Fork and clone this repo to your local system
-- Open Google Chrome and go to Options menu on the right end (the three dots) and select More Tools > Extensions.
+- Fork and clone this repo to your local device
+- In your Chrome browser, select the three vertical dots -> More Tools -> Extensions.
 - Enable Developer Mode
-- Load the unpacked extension and select the root folder you cloned
+- Load the unpacked extension and select the cloned root folder
 - You should now see the YouTube Video Filter extension added to your Chrome browser
 
 ## Usage
