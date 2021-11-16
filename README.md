@@ -1,6 +1,6 @@
 # YouTube Video Filter
 
-Chrome extension for hiding YouTube video with titles that match keywords in the extension list
+Chrome extension for hiding YouTube videos with titles that match keywords in the extension list
 
 - This extension will hide videos that appear in feeds, search results, and related videos
 - This extension will not hide YouTube channels, playlists, and videos that appear in playlists
