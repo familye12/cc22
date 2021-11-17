@@ -9,18 +9,16 @@ function filterVideos() {
       videos.forEach((video) => {
         let title1 = video.querySelector("#video-title");
         let title2 = video.querySelector("yt-formatted-string");
-        if (title1) {
-          if (
-            title1.innerHTML.toUpperCase().includes(filterWord.toUpperCase())
-          ) {
-            video.style.display = "none";
-          }
-        } else if (title2) {
-          if (
-            title2.innerHTML.toUpperCase().includes(filterWord.toUpperCase())
-          ) {
-            video.style.display = "none";
-          }
+        if (
+          title1 &&
+          title1.innerHTML.toUpperCase().includes(filterWord.toUpperCase())
+        ) {
+          video.style.display = "none";
+        } else if (
+          title2 &&
+          title2.innerHTML.toUpperCase().includes(filterWord.toUpperCase())
+        ) {
+          video.style.display = "none";
         }
       });
     });
