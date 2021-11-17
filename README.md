@@ -15,7 +15,7 @@ Chrome extension for hiding YouTube videos with titles that match keywords in th
 
 ## Usage
 
-After installation, simply click on the extension icon in your browser, enter a keyword and click the + button to add to the filter list, and watch the extension start hiding videos that match keywords in your list. Click the x button to remove any keywords from the list
+After installation, simply click on the extension icon in your browser, enter a keyword and click the + button to add to the filter list, and watch the extension start hiding videos that match keywords in your list. Click the x button to remove any keywords from the list. Note that after removing a keyword from the list, any hidden videos will remain hidden and you will need to refresh the page. 
 
 ## Contributing
 
